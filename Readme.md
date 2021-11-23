@@ -10,15 +10,15 @@ Objectives:
 
 Idea:
 - Get courses data and study programfrom [Academic Chula website](http://www.academic.chula.ac.th/search/searchthai.asp)
-- There are about 500 study programs and 20,000 courses in Chulalongkorn university.
+- There are about 500 study programs, 20,000 coursesm and 26 faculties in Chulalongkorn university.
 - Use model that support course description embedding ex. TF-IDF, Neural network based model. 
 - Use [SHAP](https://github.com/slundberg/shap) to interpret models' result
 
 To Do:
 - [ ] Train model to **predict study programs** and compare between TF-IDF + SVM, LSTM + Embedding layer, and Transformer based model.
-    - [] LSTM
-    - [] TF-IDF + SVM
-    - [] Attention based model
+    - [ ] LSTM
+    - [ ] TF-IDF + SVM
+    - [ ] Attention based model
 - [x] Add model notebook.
 - [ ] Add scrapper notebook.
 - [ ] Get study program data.
