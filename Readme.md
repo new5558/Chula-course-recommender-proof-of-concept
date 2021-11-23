@@ -2,6 +2,8 @@
 
 ### This repository is part of the subject: [2147334 MACHINE LEARNING OR DEEP LEARNING](https://cugetreg.com/I/courses/2147334?term=2564%2F1)
 
+Getting start: `docker-compose -f docker-compose.dev.yml up`
+
 Objectives:
 1. Predict study program by looking from course description
 2. (Optional) Use embedding from the best predictor to calculate course similarity and in the end create content-based recommender system.
@@ -17,5 +19,3 @@ To Do:
 - Add scrapper notebook.
 - Get study program data.
 - Update Readme.md
-
-Start command: `docker-compose -f docker-compose.dev.yml up`
