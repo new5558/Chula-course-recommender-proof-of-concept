@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+ jupyter:
+  build:
+   context: .
+  ports:
+   - 8888:8888
+  # environment:
+  #  - JUPYTER_ENABLE_LAB=yes
+  working_dir: /work2
+  volumes:
+   - ./src:/work2:cached 
+  container_name: jupyter-notebook-container
+  
