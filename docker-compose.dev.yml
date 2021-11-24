@@ -6,11 +6,9 @@ services:
    context: .
   ports:
    - 8888:8888
-  # environment:
-  #  - JUPYTER_ENABLE_LAB=yes
-  working_dir: /work2
+  working_dir: /work
   volumes:
-   - ./src:/work2:cached 
+   - ./src:/work:cached 
   container_name: jupyter-notebook-container-2
 
   
