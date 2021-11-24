@@ -2,7 +2,7 @@
 
 ### This repository is a part of the subject: [2147334 MACHINE LEARNING OR DEEP LEARNING](https://cugetreg.com/I/courses/2147334?term=2564%2F1)
 
-Getting start: `docker-compose -f docker-compose.dev.yml up`
+Getting start: `docker-compose -f docker-compose.dev.yml up --build`
 
 Objectives:
 1. Predict study programs by looking from course description

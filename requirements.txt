@@ -3,3 +3,10 @@ pythainlp==2.3.2
 tqdm==4.62.3
 scikit-learn==1.0.1
 scikit-optimize==0.9.0
+
+# torch==1.10.0 
+# torchtext==0.11.0 
+# torchvision==0.11.1
+# transformers==3.5.0 
+thai2transformers==0.1.2
+jupyterlab==3.2.4

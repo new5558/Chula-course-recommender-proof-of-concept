@@ -11,5 +11,6 @@ services:
   working_dir: /work2
   volumes:
    - ./src:/work2:cached 
-  container_name: jupyter-notebook-container
+  container_name: jupyter-notebook-container-2
+
   

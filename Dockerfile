@@ -1,5 +1,6 @@
-FROM jupyter/scipy-notebook:hub-1.5.0
-USER root
-COPY requirements.txt ./requirements.txt
-RUN apt-get update && apt-get install --yes build-essential
+FROM python:3.7
+ADD requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
+RUN pip install torch==1.4.0
+RUN pip install ipywidgets
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
