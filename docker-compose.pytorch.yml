@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+ jupyter:
+  build:
+   context: .
+   dockerfile: Dockerfile.pytorch
+  ports:
+   - 8888:8888
+  working_dir: /work
+  volumes:
+   - ./src:/work:cached 
+  container_name: jupyter-notebook-container
+
+  

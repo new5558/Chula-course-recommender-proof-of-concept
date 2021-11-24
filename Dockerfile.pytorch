@@ -1,0 +1,5 @@
+FROM nvcr.io/nvidia/pytorch:20.01-py3
+ADD requirements-pytorch.txt ./requirements-pytorch.txt
+RUN pip install -r requirements-pytorch.txt
+RUN pip install thai2transformers==0.1.2 --no-dependencies
+CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
