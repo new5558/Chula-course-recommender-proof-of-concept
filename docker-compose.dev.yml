@@ -9,6 +9,17 @@ services:
   working_dir: /work
   volumes:
    - ./src:/work:cached 
-  container_name: jupyter-notebook-container-2
+  container_name: jupyter-notebook-container
+ jupyter-pytorch:
+  build:
+   context: .
+   dockerfile: Dockerfile.pytorch
+  ports:
+   - 8888:8888
+  working_dir: /work
+  volumes:
+   - ./src:/work:cached 
+  container_name: jupyter-notebook-container-pytorch
+
 
   
