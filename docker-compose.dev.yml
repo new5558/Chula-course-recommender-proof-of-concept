@@ -20,6 +20,7 @@ services:
   working_dir: /work
   volumes:
    - ./src:/work:cached 
+   - ./data:/work/data:cached 
   container_name: jupyter-notebook-container-pytorch
 
 
