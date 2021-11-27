@@ -3,6 +3,7 @@
 ### This repository is a part of the subject: [2147334 MACHINE LEARNING OR DEEP LEARNING](https://cugetreg.com/I/courses/2147334?term=2564%2F1)
 
 ### Getting start: 
+Google Colab: Open `src/model.ipynb` on Colab And uncomment
 Jupyter notebook: `docker-compose -f docker-compose.dev.yml up jupyter --build`    
 Jupyter notebook with pytorch GPU support (Take longer to load): `docker-compose -f docker-compose.dev.yml up jupyter-pytorch --build`
 
