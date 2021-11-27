@@ -20,6 +20,7 @@ To Do:
 - [ ] Train model to **predict study programs** and compare between TF-IDF + SVM, LSTM + Embedding layer, and Transformer based model.
     - [ ] LSTM
     - [ ] TF-IDF + SVM
+    - [ ] Thai2Fit + SVM
     - [ ] Attention based model
 - [x] Add model notebook.
 - [ ] Add scrapper notebook.
@@ -29,5 +30,6 @@ To Do:
 - [ ] Train model to **predict faculty**
     - [x] LSTM
     - [x] TF-IDF + SVM
-    - [ ] Attention based model
+    - [x] Thai2Fit + SVM
+    - [ ] Pretrained Attention based model
 - [ ] Create recommender system proof of concept from trained model
