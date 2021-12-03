@@ -11,3 +11,4 @@ deepcut
 torch==1.4
 transformers==3.5.0
 jupyterlab==3.2.4
+pycaret==2.0
