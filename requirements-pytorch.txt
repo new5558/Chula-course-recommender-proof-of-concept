@@ -12,7 +12,6 @@ torch==1.4
 transformers==3.5.0
 jupyterlab==3.2.4
 pycaret==2.0
-thai2transformers==0.1.2
 
 seqeval==1.2.2
 emoji==1.6.1
