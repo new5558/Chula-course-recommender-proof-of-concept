@@ -12,5 +12,6 @@ torch==1.4
 transformers==3.5.0
 jupyterlab==3.2.4
 emoji==1.6.1
+shap
 
 seqeval==1.2.2
