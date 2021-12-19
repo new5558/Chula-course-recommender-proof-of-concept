@@ -14,5 +14,6 @@ jupyterlab==3.2.4
 emoji==1.6.1
 shap
 sentencepiece
+sentence_transformers
 
 seqeval==1.2.2
